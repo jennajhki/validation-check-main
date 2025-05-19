@@ -1,0 +1,97 @@
+
+.hide {
+  display: none;
+}
+/* 전체 페이지 스타일 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  padding: 30px;
+  color: #333;
+}
+
+/* 제목 */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* 필드셋 스타일 */
+fieldset {
+  border: none;
+  background-color: #fff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 라벨 */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* 입력창 */
+input[type="text"],
+input[type="password"],
+input[type="numbers"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #dcdfe3;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* 메시지 */
+.success-message {
+  color: #27ae60;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.failure-message,
+.mismatch-message {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.match-message {
+  color: #2ecc71;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* 숨김 */
+.hide {
+  display: hide;
+}
+
+/* 버튼 */
+button {
+  width: 100%;
+  background-color: pink;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
